@@ -9,14 +9,13 @@ String language;
  language= SC.nextLine();
  
  switch(language){
- case "English": 
-      System.out.println ("Hello World");
- case "French":
-      System.out.println ("Bonjour le monde");
- case "Spanish":
-      System.out.println ("Hola Mundo");
- default:
-      System.out.println ("Opps we dont have your lanuage configured anyway, Hello World");	   
+ case "English": {System.out.println ("Hello World"); 
+	            break;}
+ case "French": {System.out.println ("Bonjour le monde");
+	           break;}
+ case "Spanish":{System.out.println ("Hola Mundo");
+	            break;}
+ default:{System.out.println ("Opps we dont have your lanuage configured anyway, Hello World");}	   
  }
 }
 }
