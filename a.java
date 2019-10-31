@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 class a{
 public static void main(String[] args){
+
 String language;
  Scanner SC=new Scanner(System.in);
 
@@ -9,11 +10,11 @@ String language;
  language= SC.nextLine();
  
  switch(language){
- case "English": {System.out.println ("Hello World"); 
+ case "English": {System.out.println ("Hello Welcome to the universe of Java"); 
 	            break;}
- case "French": {System.out.println ("Bonjour le monde");
+ case "French": {System.out.println ("Bonjour Bienvenue dans l'univers de Java");
 	           break;}
- case "Spanish":{System.out.println ("Hola Mundo");
+ case "Spanish":{System.out.println ("Hola bienvenidos al universo de Java");
 	            break;}
  default:{System.out.println ("Opps we dont have your lanuage configured anyway, Hello World");}	   
  }
