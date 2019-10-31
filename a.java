@@ -15,7 +15,7 @@ public static void personalized_greeting() {
   Scanner scannerObj=new Scanner(System.in);
   System.out.print("************************");
   System.out.print("Enter a Greeting Name:) ");
-  greeting_name= scannerObj.nextLine();
+  greetingName= scannerObj.nextLine();
   System.out.println("Welcome " + greetingName + "! to the world of java :)");
 }
 }
